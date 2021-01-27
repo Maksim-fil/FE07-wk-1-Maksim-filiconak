@@ -1,7 +1,1 @@
-a {
-  text-decoration: none;
-  color: rebeccapurple;
-}
-.block {
-  color: palevioletred;
-}
+@import url("../css/awesome.css")
