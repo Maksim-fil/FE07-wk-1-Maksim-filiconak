@@ -1,1 +1,10 @@
-@import url("../css/awesome.css")
+@import url("../css/awesome.css");
+@import url("../css/pricing.css");
+
+body{
+    margin: 0;
+}
+
+
+
+

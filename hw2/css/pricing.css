@@ -1,0 +1,204 @@
+.pricing{
+    width: 100%;
+    background-color: #E5E5E5;
+    
+}
+
+.container{
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: auto;
+}
+.pricing-titel{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    margin-top: 80px;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+.pricing-titel:after{
+    content: "";
+    display: block;
+    width: 64px;
+    height: 2px;
+    margin: 0 auto;
+    margin-top: 34px;
+    background-color: #E72424;
+}
+
+.pricing-subtitel{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    
+    color: #86878B;
+    text-align: center;
+    margin-top: 34px;
+
+}
+
+.pricing-wrap{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 62px;
+   
+}
+
+.pricing-card{
+    list-style-type: none;
+    width: 340px;
+    height: 467px;
+
+}
+/*Basic*/
+.pricing-card_basic{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    background-color: #333333;
+    
+   
+    line-height: 50px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.pricing-card_basic_price{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    margin-top: 1px;
+    text-align: center;
+    line-height: 100px;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.pricing-card_basic_duration{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    background-color: #333333;
+    margin-top: 1px;
+   
+    line-height: 50px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.pricing-card_basic_product{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    background-color: #ffffff;
+    margin-top: 1px;
+   
+    line-height: 50px;
+    color: #86878B;
+    text-align: center;
+}
+
+
+
+/*optima*/
+
+
+
+.pricing-card_optima{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    background-color: #333333;
+    
+   
+    line-height: 50px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.pricing-card_optima_price{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    margin-top: 1px;
+    text-align: center;
+    line-height: 100px;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.pricing-card_optima_duration{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    background-color: #D98943;
+    margin-top: 1px;
+   
+    line-height: 50px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.pricing-card_optima_product{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    background-color: #ffffff;
+    margin-top: 1px;
+   
+    line-height: 50px;
+    color: #86878B;
+    text-align: center;
+}
+
+/*Pro*/
+
+.pricing-card_pro{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    background-color: #333333;
+    
+   
+    line-height: 50px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.pricing-card_pro_price{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    margin-top: 1px;
+    text-align: center;
+    line-height: 100px;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.pricing-card_pro_duration{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    background-color: #333333;
+    margin-top: 1px;
+   
+    line-height: 50px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.pricing-card_pro_product{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    background-color: #ffffff;
+    margin-top: 1px;
+   
+    line-height: 50px;
+    color: #86878B;
+    text-align: center;
+}
