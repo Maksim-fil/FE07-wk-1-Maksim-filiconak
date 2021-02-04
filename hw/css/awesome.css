@@ -4,18 +4,9 @@
     background-color: #FFFFFF;
 }
 
-.container{
-    max-width: 1170px;
-    padding: 0 15px;
-    margin: auto;
-}
+
 .awesome-titel{
     margin-top: 100px;
-    font-size: 36px;
-    font-weight: 400;
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
-    line-height: 42,26px;
 }
 
 .awesome-titel:after{
@@ -28,7 +19,7 @@
     background-color: #D98943;
 }
 
-.awesome-subtitel{
+.awesome-description{
     margin-top: 30px;
     margin-bottom: 36px;
     font-family: 'Open Sans', sans-serif;
@@ -49,7 +40,7 @@
     display: inline-block;
     margin-top: 31px;
     width: 350px;
-    height: 225px;
+
 }
 
 .awesome-item__titel{

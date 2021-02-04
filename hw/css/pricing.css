@@ -4,19 +4,9 @@
     
 }
 
-.container{
-    max-width: 1170px;
-    padding: 0 15px;
-    margin: auto;
-}
+
 .pricing-titel{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    font-size: 36px;
-    margin-top: 80px;
-    text-align: center;
-    text-transform: uppercase;
-    
+    padding-top: 80px;
 }
 
 .pricing-titel:after{
@@ -29,7 +19,7 @@
     background-color: #E72424;
 }
 
-.pricing-subtitel{
+.pricing-description{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -44,13 +34,19 @@
     display: flex;
     justify-content: space-between;
     margin-top: 62px;
+    padding: 0 -15px;
+    flex-wrap: wrap;
    
+}
+
+.pricing-item{
+    margin: 0 15px;
 }
 
 .pricing-card{
     list-style-type: none;
     width: 340px;
-    height: 467px;
+    
 
 }
 /*Basic*/
