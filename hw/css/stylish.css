@@ -1,0 +1,70 @@
+.stylish{
+    width: 100%;
+    height: 326px;
+    background-image: url("/image/bg/111.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.stylish::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 55%);
+
+}
+
+
+
+.stylish-titel:after{
+    content: "";
+    display: block;
+    width: 64px;
+    height: 2px;
+    margin: 0 auto ;
+    margin-top: 34px;
+    background-color: #FFFFFF;
+   
+}
+
+.stylish-description{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    z-index: 1;
+    color: #fff;
+    text-align: center;
+    margin-top: 34px;
+    position: relative;
+}
+
+.stylish-titel{
+    padding-top: 57px;
+    color: #FFFFFF;
+    z-index: 1;
+    position: relative;
+}
+
+.stylish-btn{
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    display: block;
+    width: 135px;
+    padding: 11px 26px;
+    margin:68px auto 0;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.stylish-btn:hover{
+    background-color: #fff;
+    color: #333;
+}
