@@ -34,7 +34,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 62px;
-    padding: 0 -15px;
+    margin: 0 -15px;
     flex-wrap: wrap;
    
 }
