@@ -39,11 +39,13 @@
     display: flex;
     margin-top: 35px;
     font-size: 40px;
-    color: #86878B;
+    
     list-style: none;    
 }
 
 .social-icon_item{
+    color: #86878B;
+    text-decoration: none;
     margin-left: 65px;
 }
 
