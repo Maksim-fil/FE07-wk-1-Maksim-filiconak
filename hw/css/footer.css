@@ -1,13 +1,17 @@
 .footer{
     width: 100%;
-    
+    display: flex;
+    justify-content: center;
     background-color:  #000000;
 }
 
 .footer-wrap{
-    display: flex;
-    justify-content: space-around;
+   
+    color: #fff;
     text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+    background-color:#000000 ;
 }
 
 .footer-titel{
@@ -19,13 +23,23 @@
     
 }
 
-.footer-derection{
+
+
+.footer-icon{
+    list-style-type: none;
+    display: flex;
+    
+}
+
+.footer-icon_item{
+ font-size: 18px;
+ margin-left: 40px;
+ 
+}
+ 
+.footer-text{
     font-size: 12px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    color: #FFFFFF;
-    
-    margin-top: 14px;
-   
+    color: rgba(255, 255, 255, 0.5)
 }
- 
