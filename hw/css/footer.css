@@ -16,22 +16,57 @@
 
 .footer-icon_item{
     color: #fff;
+    list-style: none;
+    
 }
 
 
 
 .footer-icon{
-    list-style-type: none;
     display: flex;
-    
 }
 
 .footer-icon_item{
  font-size: 18px;
  margin-left: 40px;
- 
+}
+
+.footer-icon_item:hover{
+    transform: scale(1.5, 1.5);
+    color: white;
+    cursor: pointer;
+}
+
+.footer_item-facebook:hover{
+    background-color: rgb(67, 98, 235);  
+}
+
+.footer_item-twitter:hover{
+    background-color: rgb(105, 169, 221);
+}
+
+.footer_item-google:hover{
+    background-color: rgb(245, 84, 43);
+}
+
+.footer_item-pinterest:hover{
+color: rgb(221, 8, 8);
+background-color:  #fff;
+
+}
+
+.footer_item-stumbleupon:hover{
+    background-color: rgb(245, 84, 43);
 }
  
+.footer_item-instagram:hover{
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+}
+
+.footer_item-rss:hover{
+    background-color: rgb(255, 145, 0);
+}
+
 .footer-text{
     font-size: 12px;
     font-family: 'Open Sans', sans-serif;

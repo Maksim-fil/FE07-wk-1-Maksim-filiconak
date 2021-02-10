@@ -12,7 +12,7 @@
     background-color: #E72424;
 }
 
-.coustomers-desription{
+.coustomers-description{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -39,6 +39,10 @@
 
 .coustomers-item_titel{
     width: 253px;
+   
+}
+
+.coustomers-text{
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -50,7 +54,18 @@
     z-index: 1;
     margin-top: 67px;
 }
-
+.coustomers-text:after{
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent; 
+    border-right: 10px solid transparent; 
+    border-top: 15px solid #E2E2E2;
+    position: absolute;
+    top: 99%;
+    left: 48px;
+    z-index: 0;
+}
 
 .item_img_victor{
     width: 70px;
@@ -63,28 +78,13 @@
     
 }
 
-
-.item_img_sveta{
+.images{
     width: 70px;
     height: 70px;
-    background-image: url(/image/2.jpg) ;
-    background-repeat: no-repeat;
-    background-size: 150%;
-    border-radius: 50%; 
-    margin-top: 22px;
-    
+    border-radius: 50%;
+    margin-top: 15px;
 }
 
-.item_img_iosif{
-    width: 70px;
-    height: 70px;
-    background-image: url(/image/3.jpg) ;
-    background-repeat: no-repeat;
-    background-size: 150%;
-    border-radius: 50%; 
-    margin-top: 22px;
-    
-}
 
 .item-subtitel{
     display: flex;
@@ -115,37 +115,6 @@
     
 }
 
-.triangle-victor {
-    width: 0; 
-    height: 0; 
-    border-left: 10px solid transparent; 
-    border-right: 10px solid transparent; 
-    border-top: 15px solid #E2E2E2;
-    left: 220px;
-    position: absolute;
-    z-index: 0;
-   }
-   
-   .triangle-sveta {
-    width: 0; 
-    height: 0; 
-    border-left: 10px solid transparent; 
-    border-right: 10px solid transparent; 
-    border-top: 15px solid #E2E2E2;
-    left: 625px;
-    position: absolute;
-    z-index: 0;
-   }
 
-   .triangle-iosif {
-    width: 0; 
-    height: 0; 
-    border-left: 10px solid transparent; 
-    border-right: 10px solid transparent; 
-    border-top: 15px solid #E2E2E2;
-    left: 1065px;
-    position: absolute;
-    z-index: 0;
-   }
    
    

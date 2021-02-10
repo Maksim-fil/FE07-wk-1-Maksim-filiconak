@@ -83,6 +83,7 @@
     line-height: 50px;
     color: #ffffff;
     text-align: center;
+    transition: 0.3s;
 }
 
 .pricing-card_basic_product{
@@ -95,8 +96,22 @@
     line-height: 50px;
     color: #86878B;
     text-align: center;
+    transition: 0.3s;
 }
 
+.pricing-card_basic_product:hover{
+    cursor: pointer;
+    border:0.5px solid rgb(28, 30, 31);
+    font-size: 20px;
+    color: black;
+   
+}
+
+.pricing-card_basic_duration:hover{
+cursor: pointer;
+font-size: 22px;
+
+}
 
 
 /*optima*/
@@ -136,6 +151,7 @@
     line-height: 50px;
     color: #ffffff;
     text-align: center;
+    transition: .3s;
 }
 
 .pricing-card_optima_product{
@@ -148,6 +164,21 @@
     line-height: 50px;
     color: #86878B;
     text-align: center;
+    transition: 0.3s;
+}
+
+.pricing-card_optima_product:hover{
+    cursor: pointer;
+    border:0.5px solid rgb(28, 30, 31);
+    font-size: 20px;
+    color: black;
+   
+}
+
+.pricing-card_optima_duration:hover{
+    cursor: pointer;
+    font-size: 22px;
+    
 }
 
 /*Pro*/
@@ -185,6 +216,7 @@
     line-height: 50px;
     color: #ffffff;
     text-align: center;
+    transition: .3s;
 }
 
 .pricing-card_pro_product{
@@ -197,4 +229,18 @@
     line-height: 50px;
     color: #86878B;
     text-align: center;
+    transition: .3s;
+}
+
+
+.pricing-card_pro_product:hover{
+    cursor: pointer;
+    border:0.5px solid rgb(28, 30, 31);
+    font-size: 20px;
+    color: black;
+}
+
+.pricing-card_pro_duration:hover{
+    cursor: pointer;
+    font-size: 22px;
 }

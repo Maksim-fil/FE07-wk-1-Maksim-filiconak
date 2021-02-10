@@ -8,7 +8,7 @@
 
 .social-wrap{
     width: 100%;
-    margin-top: 70px;
+    
     display: flex;
     justify-content: space-between;
     
@@ -52,5 +52,13 @@
     text-decoration: none;
     margin-left: 65px;
 }
+
+.social-icon_item:hover{
+    cursor: pointer;
+    transform: scale(1.5, 1.5);
+    color: #bbbdc5;
+}
+
+
 
 
