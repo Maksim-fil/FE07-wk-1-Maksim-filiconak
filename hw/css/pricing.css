@@ -92,7 +92,8 @@
     font-weight: 400;
     background-color: #ffffff;
     margin-top: 1px;
-   
+    
+    border: 0.5px solid #ffffff;
     line-height: 50px;
     color: #86878B;
     text-align: center;
@@ -147,7 +148,6 @@ font-size: 22px;
     font-weight: 600;
     background-color: #D98943;
     margin-top: 1px;
-   
     line-height: 50px;
     color: #ffffff;
     text-align: center;
@@ -160,6 +160,7 @@ font-size: 22px;
     font-weight: 400;
     background-color: #ffffff;
     margin-top: 1px;
+    border: 0.5px solid #ffffff;
    
     line-height: 50px;
     color: #86878B;
@@ -225,6 +226,7 @@ font-size: 22px;
     font-weight: 400;
     background-color: #ffffff;
     margin-top: 1px;
+    border: 0.5px solid #ffffff;
    
     line-height: 50px;
     color: #86878B;

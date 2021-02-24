@@ -51,6 +51,7 @@
     color: #86878B;
     text-decoration: none;
     margin-left: 65px;
+    transition: .3s;
 }
 
 .social-icon_item:hover{

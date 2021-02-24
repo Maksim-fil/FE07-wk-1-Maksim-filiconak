@@ -37,10 +37,7 @@
     margin: 0 15px;
 }
 
-.coustomers-item_titel{
-    width: 253px;
-   
-}
+
 
 .coustomers-text{
     font-size: 14px;
@@ -67,22 +64,23 @@
     z-index: 0;
 }
 
-.item_img_victor{
+/* .item_img_victor{
     width: 70px;
     height: 70px;
     background-image: url(/image/1.jpg) ;
     background-repeat: no-repeat;
-    background-size: 150%;
     border-radius: 50%; 
     margin-top: 22px;
     
-}
+} */
 
 .images{
     width: 70px;
     height: 70px;
     border-radius: 50%;
     margin-top: 15px;
+    align-items: center;
+    background-repeat: no-repeat;
 }
 
 
